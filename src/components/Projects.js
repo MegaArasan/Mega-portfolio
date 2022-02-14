@@ -222,7 +222,7 @@ function Projects() {
               Movies DB
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              you can see the movies description and reviews.
+              Movies Db with basic CRUD
             </Typography>
           </CardContent>
           <CardActions>
