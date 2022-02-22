@@ -25,6 +25,7 @@ function Projects() {
         }}
         variant="h4"
         color="inherit"
+        className="headtitle"
       >
         PROJECTS
       </Typography>
@@ -55,7 +56,7 @@ function Projects() {
           <CardActions>
             <Tooltip title="Kingcars-frontend" placement="top">
               <Link
-                color="#0049af"
+                color="#2196f3"
                 target="_blank"
                 underline="none"
                 rel="noreferrer"
@@ -66,7 +67,7 @@ function Projects() {
             </Tooltip>
             <Tooltip title="Kingcars-backend" placement="top">
               <Link
-                color="#0049af"
+                color="#2196f3"
                 target="_blank"
                 underline="none"
                 rel="noreferrer"
@@ -77,7 +78,7 @@ function Projects() {
             </Tooltip>
             <Tooltip title="Hoisted link" placement="top">
               <Link
-                color="#0049af"
+                color="#2196f3"
                 target="_blank"
                 underline="none"
                 rel="noreferrer"
@@ -114,7 +115,7 @@ function Projects() {
           <CardActions>
             <Tooltip title="Mega's pizza-frontend" placement="top">
               <Link
-                color="#0049af"
+                color="#2196f3"
                 target="_blank"
                 underline="none"
                 rel="noreferrer"
@@ -125,7 +126,7 @@ function Projects() {
             </Tooltip>
             <Tooltip title="Mega's pizza-backend" placement="top">
               <Link
-                color="#0049af"
+                color="#2196f3"
                 target="_blank"
                 underline="none"
                 rel="noreferrer"
@@ -136,7 +137,7 @@ function Projects() {
             </Tooltip>
             <Tooltip title="Hoisted link" placement="top">
               <Link
-                color="#0049af"
+                color="#2196f3"
                 target="_blank"
                 underline="none"
                 rel="noreferrer"
@@ -176,7 +177,7 @@ function Projects() {
           <CardActions>
             <Tooltip title="BookInvoice-frontend" placement="top">
               <Link
-                color="#0049af"
+                color="#2196f3"
                 target="_blank"
                 underline="none"
                 rel="noreferrer"
@@ -187,7 +188,7 @@ function Projects() {
             </Tooltip>
             <Tooltip title="BookInvoice-backend" placement="top">
               <Link
-                color="#0049af"
+                color="#2196f3"
                 target="_blank"
                 underline="none"
                 rel="noreferrer"
@@ -198,7 +199,7 @@ function Projects() {
             </Tooltip>
             <Tooltip title="Hoisted link" placement="top">
               <Link
-                color="#0049af"
+                color="#2196f3"
                 target="_blank"
                 underline="none"
                 rel="noreferrer"
@@ -228,7 +229,7 @@ function Projects() {
           <CardActions>
             <Tooltip title="Movies app-frontend" placement="top">
               <Link
-                color="#0049af"
+                color="#2196f3"
                 target="_blank"
                 underline="none"
                 rel="noreferrer"
@@ -239,7 +240,7 @@ function Projects() {
             </Tooltip>
             <Tooltip title="Movies app-backend" placement="top">
               <Link
-                color="#0049af"
+                color="#2196f3"
                 target="_blank"
                 underline="none"
                 rel="noreferrer"
@@ -250,7 +251,7 @@ function Projects() {
             </Tooltip>
             <Tooltip title="Hoisted link" placement="top">
               <Link
-                color="#0049af"
+                color="#2196f3"
                 target="_blank"
                 underline="none"
                 rel="noreferrer"

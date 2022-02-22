@@ -10,6 +10,7 @@ import Typography from "@mui/material/Typography";
 import sports from "../assets/sports.png";
 import music from "../assets/music.png";
 import movies from "../assets/movies.png";
+import games from "../assets/games.png";
 
 function Education() {
   return (
@@ -21,11 +22,12 @@ function Education() {
         }}
         variant="h4"
         color="inherit"
+        className="headtitle"
       >
         EDUCATION
       </Typography>
       <div className="education">
-        <VerticalTimeline lineColor="#0049af">
+        <VerticalTimeline lineColor="#2196f3">
           <VerticalTimelineElement
             contentStyle={{ backgroundColor: "inherit" }}
             className="vertical-timeline-element--work"
@@ -72,11 +74,13 @@ function Education() {
       </div>
       <Typography
         sx={{
+          paddingTop: "20px",
           ml: { xs: "none", sm: "25px" },
           fontSize: { xs: "25px", sm: "35px" },
         }}
         variant="h4"
         color="inherit"
+        className="headtitle"
       >
         HOBBIES
       </Typography>
@@ -97,6 +101,12 @@ function Education() {
           <img src={movies} alt="heroku" />
           <Typography color="inherit" variant="h6">
             Movies
+          </Typography>
+        </div>
+        <div className="setlogo">
+          <img src={games} alt="games" className="games" />
+          <Typography color="inherit" variant="h6">
+            Playing Games
           </Typography>
         </div>
       </div>

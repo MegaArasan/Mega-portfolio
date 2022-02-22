@@ -16,7 +16,7 @@ function Home() {
         >
           Mega Arasan.V
         </Typography>
-        <Typography sx={{ fontSize: "30px", color: "#0049af" }} variant="h6">
+        <Typography sx={{ fontSize: "30px", color: "#2196f3" }} variant="h6">
           Full Stack Developer
         </Typography>
       </div>

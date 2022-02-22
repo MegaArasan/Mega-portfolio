@@ -22,6 +22,7 @@ function Skills() {
         }}
         variant="h4"
         color="inherit"
+        className="headtitle"
       >
         PROFESSIONAL SKILLS
       </Typography>
@@ -82,6 +83,7 @@ function Skills() {
           fontSize: { xs: "25px", sm: "35px" },
         }}
         variant="h4"
+        className="headtitle"
       >
         TOOLS
       </Typography>

@@ -11,6 +11,7 @@ function About() {
         }}
         variant="h4"
         color="inherit"
+        className="headtitle"
       >
         ABOUT
       </Typography>
