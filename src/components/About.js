@@ -8,7 +8,7 @@ function About() {
     <section id="about" className="about">
       <Typography
         sx={{
-          ml: { xs: "none", sm: "25px", md: "35px" },
+          ml: { xs: "10px", sm: "25px", md: "35px" },
           fontSize: { xs: "25px", sm: "35px" },
         }}
         variant="h4"

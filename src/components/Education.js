@@ -17,7 +17,7 @@ function Education() {
     <section id="education" className="eduint">
       <Typography
         sx={{
-          ml: { xs: "none", sm: "25px" },
+          ml: { xs: "10px", sm: "25px" },
           fontSize: { xs: "25px", sm: "35px" },
         }}
         variant="h4"
@@ -77,7 +77,7 @@ function Education() {
       <Typography
         sx={{
           paddingTop: "20px",
-          ml: { xs: "none", sm: "25px" },
+          ml: { xs: "10px", sm: "25px" },
           fontSize: { xs: "25px", sm: "35px" },
         }}
         variant="h4"

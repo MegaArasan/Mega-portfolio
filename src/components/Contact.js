@@ -9,7 +9,7 @@ function Contact() {
     <section id="contact" className="contact">
       <Typography
         sx={{
-          ml: { xs: "none", sm: "25px" },
+          ml: { xs: "10px", sm: "25px" },
           fontSize: { xs: "25px", sm: "35px" },
         }}
         variant="h3"
