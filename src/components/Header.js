@@ -1,17 +1,13 @@
 import React, { useState } from "react";
-import { Button, Link, Typography } from "@mui/material";
-import Brightness4Icon from "@mui/icons-material/Brightness4";
-import Brightness7Icon from "@mui/icons-material/Brightness7";
+import { Button, Link } from "@mui/material";
 import IconButton from "@mui/material/IconButton";
 // import { createTheme, ThemeProvider } from "@mui/material/styles";
 import MenuIcon from "@mui/icons-material/Menu";
 import Drawer from "@mui/material/Drawer";
 import CloseIcon from "@mui/icons-material/Close";
+import meglogo from "../assets/meglogo.png";
 
-function Header({ mode, setMode }) {
-  const toggleColorMode = () => {
-    setMode(mode === "light" ? "dark" : "light");
-  };
+function Header() {
   const [opened, setopened] = useState(false);
   const handleDrawerOpen = () => {
     setopened(true);
@@ -21,14 +17,13 @@ function Header({ mode, setMode }) {
   };
   return (
     <div className="navbar">
-      <Typography variant="h4" sx={{ fontFamily: "Akaya Telivigala" }}>
-        MEGA
-      </Typography>
+      <img src={meglogo} alt="meglogo" className="meglogo" />
       <div className="nav-btn">
         <Button
+          className="navbtn"
           sx={{
-            ml: "auto",
-            height: "3rem",
+            // ml: "10rem",
+            height: "2.5rem",
             display: { xs: "none", sm: "block" },
           }}
         >
@@ -36,37 +31,58 @@ function Header({ mode, setMode }) {
             Home
           </a>
         </Button>
-        <Button sx={{ color: "inherit", display: { xs: "none", sm: "block" } }}>
-          <a data-scroll href="#skills">
-            Skills
-          </a>
-        </Button>
-        <Button sx={{ height: "3rem", display: { xs: "none", sm: "block" } }}>
-          <a data-scroll href="#projects">
-            Projects
-          </a>
-        </Button>
-        <Button sx={{ height: "3rem", display: { xs: "none", sm: "block" } }}>
+        <Button
+          className="navbtn"
+          sx={{ height: "2.5rem", display: { xs: "none", sm: "block" } }}
+        >
           <a data-scroll href="#about">
             About
           </a>
         </Button>
-        <Button sx={{ height: "3rem", display: { xs: "none", sm: "block" } }}>
+        <Button
+          className="navbtn"
+          sx={{ color: "inherit", display: { xs: "none", sm: "block" } }}
+        >
+          <a data-scroll href="#skills">
+            Skills
+          </a>
+        </Button>
+        <Button
+          className="navbtn"
+          sx={{ height: "2.5rem", display: { xs: "none", sm: "block" } }}
+        >
+          <a data-scroll href="#projects">
+            Projects
+          </a>
+        </Button>
+
+        <Button
+          className="navbtn"
+          sx={{ height: "2.5rem", display: { xs: "none", sm: "block" } }}
+        >
           <a data-scroll href="#education">
             Education
           </a>
         </Button>
-        <Button sx={{ height: "3rem", display: { xs: "none", sm: "block" } }}>
+        <Button
+          className="navbtn"
+          sx={{ height: "2.5rem", display: { xs: "none", sm: "block" } }}
+        >
           <a data-scroll href="#contact">
             Contact
           </a>
         </Button>
         <Button
+          className="navbtn"
           color="inherit"
-          sx={{ height: "3rem", display: { xs: "none", sm: "block" } }}
+          sx={{
+            height: "2.5rem",
+            display: { xs: "none", sm: "block" },
+            borderRadius: "10px",
+          }}
         >
           <Link
-            color="inherit"
+            // color="inherit"
             target="_blank"
             underline="none"
             rel="noreferrer"
@@ -76,18 +92,12 @@ function Header({ mode, setMode }) {
           </Link>
         </Button>
         <IconButton
-          onClick={toggleColorMode}
-          color="inherit"
-          sx={{ ml: { xs: "auto", sm: "0" } }}
-        >
-          {mode === "light" ? <Brightness4Icon /> : <Brightness7Icon />}
-        </IconButton>
-        <IconButton
           onClick={handleDrawerOpen}
           color="inherit"
-          sx={{ display: { xs: "block", sm: "none" } }}
+          sx={{ ml: "auto", display: { xs: "block", sm: "none" } }}
+          className="menubtn"
         >
-          <MenuIcon />
+          <MenuIcon fontSize="large" />
         </IconButton>
         <Drawer
           sx={{
@@ -106,6 +116,7 @@ function Header({ mode, setMode }) {
           }}
           anchor="right"
           open={opened}
+          onClose={handleDrawerClose}
         >
           <IconButton
             color="inherit"
@@ -125,6 +136,11 @@ function Header({ mode, setMode }) {
               Home
             </a>
           </Button>
+          <Button sx={{ height: "3rem" }}>
+            <a data-scroll href="#about">
+              About
+            </a>
+          </Button>
           <Button sx={{ color: "inherit" }}>
             <a data-scroll href="#skills">
               Skills
@@ -135,11 +151,7 @@ function Header({ mode, setMode }) {
               Projects
             </a>
           </Button>
-          <Button sx={{ height: "3rem" }}>
-            <a data-scroll href="#about">
-              About
-            </a>
-          </Button>
+
           <Button sx={{ height: "3rem" }}>
             <a data-scroll href="#education">
               Education

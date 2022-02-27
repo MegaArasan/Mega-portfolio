@@ -11,6 +11,7 @@ import nodejs from "../assets/icons/nodejs.png";
 import vscode from "../assets/icons/vscode.png";
 import postman from "../assets/icons/postman.png";
 import heroku from "../assets/icons/heroku.png";
+import netlify from "../assets/icons/netlify.png";
 
 function Skills() {
   return (
@@ -28,19 +29,19 @@ function Skills() {
       </Typography>
       <div className="skillset">
         <div className="setlogo">
-          <img src={css3} alt="css" />
+          <img src={css3} alt="css" height="100px" />
           <Typography color="inherit" variant="h6">
             CSS
           </Typography>
         </div>
         <div className="setlogo">
-          <img src={html} alt="html" />
+          <img src={html} alt="html" height="100px" />
           <Typography color="inherit" variant="h6">
             HTML
           </Typography>
         </div>
         <div className="setlogo">
-          <img src={javascript} alt="javascript" />
+          <img src={javascript} alt="javascript" height="100px" />
           <Typography color="inherit" variant="h6">
             Javascript
           </Typography>
@@ -51,26 +52,27 @@ function Skills() {
             React Js
           </Typography>
         </div>
+
         <div className="setlogo">
-          <img src={mongodb} alt="mongodb" />
+          <img src={mongodb} alt="mongodb" height="100px" />
           <Typography color="inherit" variant="h6">
             Mongo DB
           </Typography>
         </div>
         <div className="setlogo">
-          <img src={express} alt="express" height="100px" />
+          <img src={express} alt="express" height="100px" width="150px" />
           <Typography color="inherit" variant="h6">
             Express Js
           </Typography>
         </div>
         <div className="setlogo">
-          <img src={nodejs} alt="nodejs" />
+          <img src={nodejs} alt="nodejs" height="100px" />
           <Typography color="inherit" variant="h6">
             Node Js
           </Typography>
         </div>
         <div className="setlogo">
-          <img src={material} alt="material" />
+          <img src={material} alt="material" height="100px" />
           <Typography color="inherit" variant="h6">
             Material UI
           </Typography>
@@ -89,21 +91,27 @@ function Skills() {
       </Typography>
       <div className="skillset">
         <div className="setlogo">
-          <img src={vscode} alt="vscode" />
+          <img src={vscode} alt="vscode" height="100px" />
           <Typography color="inherit" variant="h6">
             VS Code
           </Typography>
         </div>
         <div className="setlogo">
-          <img src={postman} alt="postman" />
+          <img src={postman} alt="postman" height="100px" />
           <Typography color="inherit" variant="h6">
             Postman
           </Typography>
         </div>
         <div className="setlogo">
-          <img src={heroku} alt="heroku" />
+          <img src={heroku} alt="heroku" height="100px" />
           <Typography color="inherit" variant="h6">
             Heroku
+          </Typography>
+        </div>
+        <div className="setlogo">
+          <img src={netlify} alt="netlify" height="100px" />
+          <Typography color="inherit" variant="h6">
+            Netlify
           </Typography>
         </div>
       </div>

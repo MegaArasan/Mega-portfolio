@@ -14,6 +14,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import PreviewIcon from "@mui/icons-material/Preview";
 import bookinvoice from "../assets/projectimg/bookinvoice.png";
 import movies from "../assets/projectimg/movies.png";
+import Chip from "@mui/material/Chip";
 
 function Projects() {
   return (
@@ -30,7 +31,9 @@ function Projects() {
         PROJECTS
       </Typography>
       <div className="projects">
-        <Card sx={{ maxWidth: 350, margin: "15px" }}>
+        <Card
+          sx={{ backgroundColor: "#75707066", maxWidth: 350, margin: "15px" }}
+        >
           <CardMedia
             component="img"
             alt="King Cars"
@@ -40,56 +43,71 @@ function Projects() {
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              King Cars- Rental
+              <b>King Cars- Rental</b>
             </Typography>
-            <Typography variant="body2" color="text.secondary">
+            <Typography variant="p" sx={{ fontSize: "20px" }} color="#000000a8">
               you can rent a car for a trip that you want.
             </Typography>
-            <Typography variant="h6">Demo Credentials:</Typography>
-            <Typography variant="body2" color="text.secondary">
+            <br />
+            <Typography variant="h6">
+              <b>Demo Credentials:</b>
+            </Typography>
+            <Typography variant="p" sx={{ fontSize: "20px" }} color="#000000a8">
               Mailid: fullstacktester66@gmail.com
             </Typography>
-            <Typography variant="body2" color="text.secondary">
+            <br />
+            <Typography variant="p" sx={{ fontSize: "20px" }} color="#000000a8">
               Password: Devops66
             </Typography>
+            <br />
           </CardContent>
-          <CardActions>
+          <CardActions sx={{ justifyContent: "center" }}>
             <Tooltip title="Kingcars-frontend" placement="top">
               <Link
-                color="#2196f3"
+                color="inherit"
                 target="_blank"
                 underline="none"
                 rel="noreferrer"
                 href="https://github.com/MegaArasan/CarRental-frontend"
               >
-                <GitHubIcon />
+                <GitHubIcon fontSize="large" />
               </Link>
             </Tooltip>
             <Tooltip title="Kingcars-backend" placement="top">
               <Link
-                color="#2196f3"
+                color="inherit"
                 target="_blank"
                 underline="none"
                 rel="noreferrer"
                 href="https://github.com/MegaArasan/CarRental-backend"
               >
-                <GitHubIcon />
+                <GitHubIcon fontSize="large" />
               </Link>
             </Tooltip>
             <Tooltip title="Hoisted link" placement="top">
               <Link
-                color="#2196f3"
+                color="inherit"
                 target="_blank"
                 underline="none"
                 rel="noreferrer"
                 href="https://kingcars-rental.netlify.app/login"
               >
-                <PreviewIcon />
+                <PreviewIcon fontSize="large" />
               </Link>
             </Tooltip>
           </CardActions>
+          <CardContent>
+            <Chip size="large" label="Reactjs" />
+            <Chip size="large" label="Nodejs" />
+            <Chip size="large" label="Mongo Db" />
+            <Chip size="large" label="Javascript" />
+            <Chip size="large" label="HTML" />
+            <Chip size="large" label="CSS" />
+          </CardContent>
         </Card>
-        <Card sx={{ maxWidth: 350, margin: "15px" }}>
+        <Card
+          sx={{ backgroundColor: "#75707066", maxWidth: 350, margin: "15px" }}
+        >
           <CardMedia
             component="img"
             alt="King Cars"
@@ -99,58 +117,71 @@ function Projects() {
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              Mega's Pizza Delivery
+              <b>Mega's Pizza Delivery</b>
             </Typography>
-            <Typography variant="body2" color="text.secondary">
+            <Typography variant="p" sx={{ fontSize: "20px" }} color="#000000a8">
               you can buy any kind of pizza.
             </Typography>
-            <Typography variant="h6">Demo Credentials:</Typography>
-            <Typography variant="body2" color="text.secondary">
+            <br />
+            <Typography variant="h6">
+              <b>Demo Credentials:</b>
+            </Typography>
+            <Typography variant="p" sx={{ fontSize: "20px" }} color="#000000a8">
               User Name: Devops
             </Typography>
-            <Typography variant="body2" color="text.secondary">
+            <br />
+            <Typography variant="p" sx={{ fontSize: "20px" }} color="#000000a8">
               Password: Devops66
             </Typography>
+            <br />
           </CardContent>
-          <CardActions>
+          <CardActions sx={{ justifyContent: "center" }}>
             <Tooltip title="Mega's pizza-frontend" placement="top">
               <Link
-                color="#2196f3"
+                color="inherit"
                 target="_blank"
                 underline="none"
                 rel="noreferrer"
                 href="https://github.com/MegaArasan/pizza-delivery-app"
               >
-                <GitHubIcon />
+                <GitHubIcon fontSize="large" />
               </Link>
             </Tooltip>
             <Tooltip title="Mega's pizza-backend" placement="top">
               <Link
-                color="#2196f3"
+                color="inherit"
                 target="_blank"
                 underline="none"
                 rel="noreferrer"
                 href="https://github.com/MegaArasan/Node-Backend"
               >
-                <GitHubIcon />
+                <GitHubIcon fontSize="large" />
               </Link>
             </Tooltip>
             <Tooltip title="Hoisted link" placement="top">
               <Link
-                color="#2196f3"
+                color="inherit"
                 target="_blank"
                 underline="none"
                 rel="noreferrer"
                 href="https://mega-pizza-delivery.netlify.app/login"
               >
-                <PreviewIcon />
+                <PreviewIcon fontSize="large" />
               </Link>
             </Tooltip>
           </CardActions>
+          <CardContent>
+            <Chip size="large" label="Reactjs" />
+            <Chip size="large" label="Nodejs" />
+            <Chip size="large" label="Mongo Db" />
+            <Chip size="large" label="Javascript" />
+            <Chip size="large" label="HTML" />
+            <Chip size="large" label="CSS" />
+          </CardContent>
         </Card>
-      </div>
-      <div className="projects">
-        <Card sx={{ maxWidth: 350, margin: "15px" }}>
+        <Card
+          sx={{ backgroundColor: "#75707066", maxWidth: 350, margin: "15px" }}
+        >
           <CardMedia
             component="img"
             alt="King Cars"
@@ -160,57 +191,71 @@ function Projects() {
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              Book Invoice
+              <b>Book Invoice</b>
             </Typography>
-            <Typography variant="body2" color="text.secondary">
-              you can store your customer data and create invoices and sent to
-              them.
+            <Typography variant="p" sx={{ fontSize: "20px" }} color="#000000a8">
+              Create and sent invoices to the customer.
             </Typography>
-            <Typography variant="h6">Demo Credentials:</Typography>
-            <Typography variant="body2" color="text.secondary">
+            <br />
+            <Typography variant="h6">
+              <b>Demo Credentials:</b>
+            </Typography>
+            <Typography variant="p" sx={{ fontSize: "20px" }} color="#000000a8">
               Mail Id: fullstacktester66@gmail.com
             </Typography>
-            <Typography variant="body2" color="text.secondary">
+            <br />
+            <Typography variant="p" sx={{ fontSize: "20px" }} color="#000000a8">
               Password: Tester@66
             </Typography>
+            <br />
           </CardContent>
-          <CardActions>
+          <CardActions sx={{ justifyContent: "center" }}>
             <Tooltip title="BookInvoice-frontend" placement="top">
               <Link
-                color="#2196f3"
+                color="inherit"
                 target="_blank"
                 underline="none"
                 rel="noreferrer"
                 href="https://github.com/MegaArasan/bookkeeping-frontend"
               >
-                <GitHubIcon />
+                <GitHubIcon fontSize="large" />
               </Link>
             </Tooltip>
             <Tooltip title="BookInvoice-backend" placement="top">
               <Link
-                color="#2196f3"
+                color="inherit"
                 target="_blank"
                 underline="none"
                 rel="noreferrer"
                 href="https://github.com/MegaArasan/bookkeeping-backend"
               >
-                <GitHubIcon />
+                <GitHubIcon fontSize="large" />
               </Link>
             </Tooltip>
             <Tooltip title="Hoisted link" placement="top">
               <Link
-                color="#2196f3"
+                color="inherit"
                 target="_blank"
                 underline="none"
                 rel="noreferrer"
                 href="https://book-invoice.netlify.app/login"
               >
-                <PreviewIcon />
+                <PreviewIcon fontSize="large" />
               </Link>
             </Tooltip>
           </CardActions>
+          <CardContent>
+            <Chip size="large" label="Reactjs" />
+            <Chip size="large" label="Nodejs" />
+            <Chip size="large" label="Mongo Db" />
+            <Chip size="large" label="Javascript" />
+            <Chip size="large" label="HTML" />
+            <Chip size="large" label="CSS" />
+          </CardContent>
         </Card>
-        <Card sx={{ maxWidth: 350, margin: "15px" }}>
+        <Card
+          sx={{ backgroundColor: "#75707066", maxWidth: 350, margin: "15px" }}
+        >
           <CardMedia
             component="img"
             alt="King Cars"
@@ -220,27 +265,28 @@ function Projects() {
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              Movies DB
+              <b>Movies DB</b>
             </Typography>
-            <Typography variant="body2" color="text.secondary">
+            <Typography variant="p" sx={{ fontSize: "20px" }} color="#000000a8">
               Movies Db with basic CRUD
             </Typography>
+            <br />
           </CardContent>
-          <CardActions>
+          <CardActions sx={{ justifyContent: "center" }}>
             <Tooltip title="Movies app-frontend" placement="top">
               <Link
-                color="#2196f3"
+                color="inherit"
                 target="_blank"
                 underline="none"
                 rel="noreferrer"
                 href="https://github.com/MegaArasan/Movies-CRUD"
               >
-                <GitHubIcon />
+                <GitHubIcon fontSize="large" />
               </Link>
             </Tooltip>
             <Tooltip title="Movies app-backend" placement="top">
               <Link
-                color="#2196f3"
+                color="inherit"
                 target="_blank"
                 underline="none"
                 rel="noreferrer"
@@ -251,16 +297,24 @@ function Projects() {
             </Tooltip>
             <Tooltip title="Hoisted link" placement="top">
               <Link
-                color="#2196f3"
+                color="inherit"
                 target="_blank"
                 underline="none"
                 rel="noreferrer"
                 href="https://movies-reviews-app.netlify.app"
               >
-                <PreviewIcon />
+                <PreviewIcon fontSize="large" />
               </Link>
             </Tooltip>
           </CardActions>
+          <CardContent>
+            <Chip size="large" label="Reactjs" />
+            <Chip size="large" label="Nodejs" />
+            <Chip size="large" label="Mongo Db" />
+            <Chip size="large" label="Javascript" />
+            <Chip size="large" label="HTML" />
+            <Chip size="large" label="CSS" />
+          </CardContent>
         </Card>
       </div>
     </section>

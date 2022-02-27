@@ -7,7 +7,7 @@ import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@mui/icons-material/School";
 import HomeWorkIcon from "@mui/icons-material/HomeWork";
 import Typography from "@mui/material/Typography";
-import sports from "../assets/sports.png";
+import football from "../assets/football.png";
 import music from "../assets/music.png";
 import movies from "../assets/movies.png";
 import games from "../assets/games.png";
@@ -27,12 +27,13 @@ function Education() {
         EDUCATION
       </Typography>
       <div className="education">
-        <VerticalTimeline lineColor="#2196f3">
+        <VerticalTimeline lineColor="#000000">
           <VerticalTimelineElement
-            contentStyle={{ backgroundColor: "inherit" }}
+            contentStyle={{ backgroundColor: "#b8b6b6" }}
+            contentArrowStyle={{ borderRight: "7px solid  #000000" }}
             className="vertical-timeline-element--work"
             date="2017-2021"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            iconStyle={{ background: "#000000", color: "#fff" }}
             icon={<SchoolIcon />}
           >
             <h3
@@ -48,10 +49,10 @@ function Education() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            contentStyle={{ background: "#0000004a", color: "inherit" }}
+            contentArrowStyle={{ borderRight: "7px solid  #000000" }}
             date="2016 - 2017"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            iconStyle={{ background: "#000000", color: "#fff" }}
             icon={<HomeWorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">HSC</h3>
@@ -60,10 +61,11 @@ function Education() {
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
-            contentStyle={{ backgroundColor: "inherit" }}
+            contentStyle={{ backgroundColor: "#b8b6b6" }}
+            contentArrowStyle={{ borderRight: "7px solid  #000000" }}
             className="vertical-timeline-element--work"
             date="2014-2015"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            iconStyle={{ background: "#000000", color: "#fff" }}
             icon={<HomeWorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">SSLC</h3>
@@ -86,27 +88,27 @@ function Education() {
       </Typography>
       <div className="skillset">
         <div className="setlogo">
-          <img src={sports} alt="vscode" />
+          <img src={football} alt="vscode" height="120px" />
           <Typography color="inherit" variant="h6">
             Sports
           </Typography>
         </div>
         <div className="setlogo">
-          <img src={music} alt="postman" />
+          <img src={music} alt="postman" height="120px" />
           <Typography color="inherit" variant="h6">
             Music
           </Typography>
         </div>
         <div className="setlogo">
-          <img src={movies} alt="heroku" />
+          <img src={movies} alt="heroku" height="120px" />
           <Typography color="inherit" variant="h6">
-            Movies
+            Bike Riding
           </Typography>
         </div>
         <div className="setlogo">
-          <img src={games} alt="games" className="games" />
+          <img src={games} alt="games" className="games" height="120px" />
           <Typography color="inherit" variant="h6">
-            Playing Games
+            Gaming
           </Typography>
         </div>
       </div>
