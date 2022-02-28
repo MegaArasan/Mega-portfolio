@@ -74,44 +74,6 @@ function Education() {
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
-      <Typography
-        sx={{
-          paddingTop: "20px",
-          ml: { xs: "10px", sm: "25px" },
-          fontSize: { xs: "25px", sm: "35px" },
-        }}
-        variant="h4"
-        color="inherit"
-        className="headtitle"
-      >
-        HOBBIES
-      </Typography>
-      <div className="skillset">
-        <div className="setlogo">
-          <img src={football} alt="vscode" height="120px" />
-          <Typography color="inherit" variant="h6">
-            Sports
-          </Typography>
-        </div>
-        <div className="setlogo">
-          <img src={music} alt="postman" height="120px" />
-          <Typography color="inherit" variant="h6">
-            Music
-          </Typography>
-        </div>
-        <div className="setlogo">
-          <img src={movies} alt="heroku" height="120px" />
-          <Typography color="inherit" variant="h6">
-            Bike Riding
-          </Typography>
-        </div>
-        <div className="setlogo">
-          <img src={games} alt="games" className="games" height="120px" />
-          <Typography color="inherit" variant="h6">
-            Gaming
-          </Typography>
-        </div>
-      </div>
     </section>
   );
 }

@@ -141,6 +141,11 @@ function Header() {
               About
             </a>
           </Button>
+          <Button sx={{ height: "3rem" }}>
+            <a data-scroll href="#education">
+              Education
+            </a>
+          </Button>
           <Button sx={{ color: "inherit" }}>
             <a data-scroll href="#skills">
               Skills
@@ -149,12 +154,6 @@ function Header() {
           <Button sx={{ height: "3rem" }}>
             <a data-scroll href="#projects">
               Projects
-            </a>
-          </Button>
-
-          <Button sx={{ height: "3rem" }}>
-            <a data-scroll href="#education">
-              Education
             </a>
           </Button>
           <Button sx={{ height: "3rem" }}>
