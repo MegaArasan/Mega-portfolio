@@ -7,10 +7,6 @@ import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@mui/icons-material/School";
 import HomeWorkIcon from "@mui/icons-material/HomeWork";
 import Typography from "@mui/material/Typography";
-import football from "../assets/football.png";
-import music from "../assets/music.png";
-import movies from "../assets/movies.png";
-import games from "../assets/games.png";
 
 function Education() {
   return (

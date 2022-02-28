@@ -3,6 +3,10 @@ import Typography from "@mui/material/Typography";
 import { Link } from "@mui/material";
 import email from "../assets/email.png";
 import phone from "../assets/phone.png";
+import football from "../assets/football.png";
+import music from "../assets/music.png";
+import movies from "../assets/movies.png";
+import games from "../assets/games.png";
 
 function Contact() {
   return (
