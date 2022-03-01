@@ -292,7 +292,7 @@ function Projects() {
                 rel="noreferrer"
                 href="https://github.com/MegaArasan/Node-demo"
               >
-                <GitHubIcon />
+                <GitHubIcon fontSize="large" />
               </Link>
             </Tooltip>
             <Tooltip title="Hoisted link" placement="top">
