@@ -301,7 +301,7 @@ function Projects() {
                 target="_blank"
                 underline="none"
                 rel="noreferrer"
-                href="https://movies-reviews-app.netlify.app"
+                href="https://mov-ies-db-app.netlify.app/"
               >
                 <PreviewIcon fontSize="large" />
               </Link>
