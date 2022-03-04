@@ -205,7 +205,7 @@ function Projects() {
             </Typography>
             <br />
             <Typography variant="p" sx={{ fontSize: "20px" }} color="#000000a8">
-              Password: Tester@66
+              Password: Devops@66
             </Typography>
             <br />
           </CardContent>
